@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CGKPH3T0J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1CGKPH3T0J');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>[Your Company Name] — Smart Parking, Automated</title>
@@ -713,7 +722,7 @@
   <nav>
     <a href="#" class="logo">
       <div class="logo-icon">🅿</div>
-      [YourPark]
+      Park-n-Pay
     </a>
     <ul>
       <li><a href="#features">Features</a></li>
@@ -727,7 +736,7 @@
   <section class="hero">
     <div class="badge">
       <span class="badge-dot"></span>
-      Now in Early Access — Join [X,XXX] on the waitlist
+      Now in Early Access — Join on the waitlist
     </div>
 
     <h1>
@@ -736,7 +745,7 @@
     </h1>
 
     <p>
-      [Your Company] eliminates the friction of parking payments. Pull in, walk away — your spot is found, reserved, and paid for without lifting a finger.
+      Park-n-Pay eliminates the friction of parking payments. Pull in, walk away — your spot is found, reserved, and paid for without lifting a finger.
     </p>
 
     <div class="hero-actions">
@@ -852,21 +861,18 @@
   <!-- STATS -->
   <div class="stats">
     <div class="stat">
-      <div class="stat-number">[X]M+</div>
+      <div class="stat-number">1M+</div>
       <div class="stat-label">Parking sessions simplified</div>
     </div>
     <div class="stat">
-      <div class="stat-number">[XX]s</div>
+      <div class="stat-number">5s</div>
       <div class="stat-label">Avg. time to park &amp; pay</div>
     </div>
     <div class="stat">
-      <div class="stat-number">[XXX]+</div>
+      <div class="stat-number">100+</div>
       <div class="stat-label">Locations supported</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">$[XX]</div>
-      <div class="stat-label">Avg. monthly saved per user</div>
-    </div>
+    
   </div>
 
   <!-- FEATURES -->
@@ -877,33 +883,19 @@
       <div class="feature-card">
         <div class="feature-icon">⚡</div>
         <h3>Instant Auto-Payment</h3>
-        <p>[Placeholder] Your payment is processed the moment your session ends. No app-opening, no scrambling for coins, no expired meters.</p>
+        <p>Your payment is processed the moment your session ends. No app-opening, no scrambling for coins, no expired meters.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">📍</div>
         <h3>Smart Spot Detection</h3>
-        <p>[Placeholder] We detect when you park and automatically start your session — powered by [your technology, e.g. GPS/sensor data].</p>
+        <p>We detect when you park and automatically start your session — powered by [your technology, e.g. GPS/sensor data].</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🔔</div>
         <h3>Real-Time Alerts</h3>
-        <p>[Placeholder] Get notified when your session starts, when it's about to expire, and the moment your payment goes through.</p>
+        <p>Get notified when your session starts, when it's about to expire, and the moment your payment goes through.</p>
       </div>
-      <div class="feature-card">
-        <div class="feature-icon">🗺️</div>
-        <h3>Availability Map</h3>
-        <p>[Placeholder] See open spots near you in real time. Filter by price, distance, and covered/outdoor — all in one view.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🔒</div>
-        <h3>Bank-Grade Security</h3>
-        <p>[Placeholder] Your payment info is encrypted and never stored on our servers. We use [Stripe / your payment processor] under the hood.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">📊</div>
-        <h3>Spend Analytics</h3>
-        <p>[Placeholder] Track your monthly parking costs, review session history, and export receipts for expense reporting.</p>
-      </div>
+    
     </div>
   </section>
 
@@ -916,17 +908,17 @@
         <div class="step">
           <div class="step-num">01</div>
           <h3>Download &amp; Set Up</h3>
-          <p>[Placeholder] Create your account, add your vehicle and a payment method. Takes less than 2 minutes. We handle the rest.</p>
+          <p>Create your account, add your vehicle and a payment method. Takes less than 2 minutes. We handle the rest.</p>
         </div>
         <div class="step">
           <div class="step-num">02</div>
           <h3>Park Anywhere We Support</h3>
-          <p>[Placeholder] Drive into any [YourPark]-enabled garage or lot. Our system detects your arrival automatically via [your tech].</p>
+          <p>Drive into any Park-n-Pay-enabled garage or lot. Our system detects your arrival automatically.</p>
         </div>
         <div class="step">
           <div class="step-num">03</div>
           <h3>Walk Away — Seriously</h3>
-          <p>[Placeholder] When you leave, we calculate your time, charge your card, and send a receipt. Zero friction. Zero stress.</p>
+          <p>When you leave, we calculate your time, charge your card, and send a receipt. Zero friction. Zero stress.</p>
         </div>
       </div>
     </div>
@@ -936,7 +928,6 @@
   <section class="cta-section" id="waitlist">
     <div class="cta-box">
       <h2>Be the first to park smarter.</h2>
-      <p>We're rolling out to [Your City / Target Market] in [Q3 2025]. Drop your email and we'll let you know the moment you can sign up.</p>
       <form class="email-form" onsubmit="handleSubmit(event)">
         <input class="email-input" type="email" placeholder="your@email.com" required />
         <button type="submit" class="btn-primary" style="white-space:nowrap;">Join Waitlist</button>
@@ -947,25 +938,40 @@
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2025 [Your Company, Inc.] All rights reserved.</p>
+    <p>© 2025 Park-n-Pay All rights reserved.</p>
     <div class="footer-links">
       <a href="#">Privacy</a>
       <a href="#">Terms</a>
       <a href="#">Contact</a>
-      <a href="#">Twitter / X</a>
+      <a href="https://www.instagram.com/park.n.pay/" target="_blank">Instagram</a>
     </div>
   </footer>
 
   <script>
     /* ── Waitlist form ── */
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
       e.preventDefault();
       const btn = e.target.querySelector('button');
       const input = e.target.querySelector('input');
-      btn.textContent = '🎉 You\'re on the list!';
-      btn.style.background = '#008F64';
+      const email = input.value;
+
+      btn.textContent = 'Saving...';
       btn.disabled = true;
       input.disabled = true;
+
+      try {
+        await fetch('https://script.google.com/macros/s/AKfycbxCKXk2uH4uiUCvsLMOmka7VFU9iYoptIz_pUt8xFs2GUbUzZvBh6QP9DhCIRpvJFg5/exec', {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: 'email=' + encodeURIComponent(email)
+        });
+      } catch (err) {
+        // no-cors responses are opaque — request still goes through
+      }
+
+      btn.textContent = '🎉 You\'re on the list!';
+      btn.style.background = '#008F64';
     }
 
     /* ── Scroll-reveal ── */
